@@ -1,13 +1,12 @@
-
-import { prepareWAMessageMedia, generateWAMessageFromContent } from  @whiskeysockets/baileys ;
+import { prepareWAMessageMedia, generateWAMessageFromContent } from '@whiskeysockets/baileys';
 
 
 const createGroupRows = async (conn, jid, isBotAdmin, totalParticipants, usedPrefix, command) => {
     const groupName = await conn.getName(jid);
     return {
         header: `مجموعة: ${groupName}`,
-        title: `البوت ادمن: ${isBotAdmin ?  نعم  :  لا } - المشاركين: ${totalParticipants}`,
-        description:  🚪 خروج ,
+        title: `البوت ادمن: ${isBotAdmin ? 'نعم' : 'لا'} - المشاركين: ${totalParticipants}`,
+        description: '🚪 خروج',
         id: `${usedPrefix + command} ${jid}`
     };
 };
@@ -23,7 +22,7 @@ const createInteractiveMessage = async (m, conn, totalGroups, rows, imgUrl) => {
             message: {
                 interactiveMessage: {
                     body: { text: caption },
-                    footer: { text:  𝙄𝘾𝙃𝙄𝙂𝙊 𝘽𝙊𝙏-𝙈𝘿 𖤍  },
+                    footer: { text: '𝙄𝘾𝙃𝙄𝙂𝙊 𝘽𝙊𝙏-𝙈𝘿 𖤍' },
                     header: {
                         hasMediaAttachment: true,
                         imageMessage: mediaMessage.imageMessage
@@ -31,13 +30,13 @@ const createInteractiveMessage = async (m, conn, totalGroups, rows, imgUrl) => {
                     nativeFlowMessage: {
                         buttons: [
                             {
-                                name:  single_select ,
+                                name: 'single_select',
                                 buttonParamsJson: JSON.stringify({
-                                    title:  قــائــمــة المجـموعـات ,
+                                    title: 'قــائــمــة المجـموعـات',
                                     sections: [
                                         {
-                                            title:  「 المجـموعـات 」 ,
-                                            highlight_label:  🚪 ,
+                                            title: '「 المجـموعـات 」',
+                                            highlight_label: '🚪',
                                             rows: rows
                                         }
                                     ]
@@ -53,7 +52,7 @@ const createInteractiveMessage = async (m, conn, totalGroups, rows, imgUrl) => {
 
 const handler = async (m, { text, conn, usedPrefix, command }) => {
     if (!text) {
-        const groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith( @g.us ) && chat.isChats);
+        const groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats);
         const totalGroups = groups.length;
 
         
@@ -68,7 +67,7 @@ const handler = async (m, { text, conn, usedPrefix, command }) => {
         }));
 
         
-        const msg = await createInteractiveMessage(m, conn, totalGroups, rows,  https://telegra.ph/file/97fca1d4f43a5881bfd06.jpg ); 
+        const msg = await createInteractiveMessage(m, conn, totalGroups, rows, 'https://telegra.ph/file/97fca1d4f43a5881bfd06.jpg'); 
         
         
         await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id });
@@ -77,20 +76,20 @@ const handler = async (m, { text, conn, usedPrefix, command }) => {
     
   const id = text;
   
-  const cap2 = `تسجيل خروجي بواسطه مطورى 😪👊🏻\nمطورى : @${m.sender.split( @ )[0]} 💡❤️\nشكرا لاستضافتكم لي 🍿❤️\n\n> اطلب من مطورى اضافتي مجددا اذا كنت تريد 😉❤️.`;
+  const cap2 = `تسجيل خروجي بواسطه مطورى 😪👊🏻\nمطورى : @${m.sender.split('@')[0]} 💡❤️\nشكرا لاستضافتكم لي 🍿❤️\n\n> اطلب من مطورى اضافتي مجددا اذا كنت تريد 😉❤️.`;
   
   await conn.sendMessage(id, {text: cap2, mentions: [m.sender]}, { quoted: m });
   
   await conn.groupLeave(id);
   
-  await conn.sendMessage(m.chat, {text:  *تمت العملية بنجاح ي مطورى 😉❤️* , mentions: [m.sender]}, { quoted: m });
+  await conn.sendMessage(m.chat, {text: '*تمت العملية بنجاح ي مطورى 😉❤️*', mentions: [m.sender]}, { quoted: m });
 
     }
 };
 
-handler.help = [ groups ,  grouplist ];
-handler.tags = [ info ];
-handler.command = [ اخرج2 ];
+handler.help = ['groups', 'grouplist'];
+handler.tags = ['info'];
+handler.command = ['اخرج2'];
 handler.rowner = true;
 
 export default handler;
