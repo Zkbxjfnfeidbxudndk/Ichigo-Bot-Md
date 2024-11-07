@@ -1,8 +1,7 @@
-
 let handler = async (m, { conn, text, usedPrefix, command, args, participants, isOwner }) => {
 
-   if (!isOwner) return conn.sendButton(m.chat, `*دعوة البوت إلى مجموعة*\n\nيا @${m.sender.split( @ )[0]}\nلو عاوز تضيف البوت لمجموعة، كلم الأونر عشان يظبطلك الموضوع`.trim(), igfg, null, [
-       [ اتصل بالأونر , `${usedPrefix}buyprem`]] , m, { mentions: [m.sender] })
+   if (!isOwner) return conn.sendButton(m.chat, `*دعوة البوت إلى مجموعة*\n\nيا @${m.sender.split('@')[0]}\nلو عاوز تضيف البوت لمجموعة، كلم الأونر عشان يظبطلك الموضوع`.trim(), igfg, null, [
+       ['اتصل بالأونر', `${usedPrefix}buyprem`]] , m, { mentions: [m.sender] })
 
   let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
   let delay = time => new Promise(res => setTimeout(res, time))
@@ -20,7 +19,7 @@ let handler = async (m, { conn, text, usedPrefix, command, args, participants, i
   let member = d.toString()
 
   await m.reply(`✅ البوت دخل الجروب بنجاح!\n\n✠ معلومات الجروب  \n\n *الاسم :* ${await conn.getName(res)}\n`)
-  await conn.reply(res, `🏮 أهلاً بالجميع!\n\n@${m.sender.split( @ )[0]} هو اللي دعاني`, m, {
+  await conn.reply(res, `🏮 أهلاً بالجميع!\n\n@${m.sender.split('@')[0]} هو اللي دعاني`, m, {
     mentions: d
   }).then(async () => {
     await delay(7000)
@@ -29,13 +28,13 @@ let handler = async (m, { conn, text, usedPrefix, command, args, participants, i
   })
 
   } catch (e) {
-      conn.reply(global.owner[1]+ @s.whatsapp.net , e)
+      conn.reply(global.owner[1]+'@s.whatsapp.net', e)
       throw `في مشكلة في دعوة البوت للجروب.`
   }
 }
-handler.help = [ join <chat.whatsapp.com> ]
-handler.tags = [ owner ]
-handler.command = [ join ,  انضم ] 
+handler.help = ['join <chat.whatsapp.com>']
+handler.tags = ['owner']
+handler.command = ['join', 'انضم'] 
 
 //handler.owner = true
 
