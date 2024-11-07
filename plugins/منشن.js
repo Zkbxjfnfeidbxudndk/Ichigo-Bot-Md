@@ -1,7 +1,6 @@
-
 let handler = async (m, { isOwner, isAdmin, conn, text, participants, args, command }) => {
     if (!(isAdmin || isOwner)) {
-        global.dfail( admin , m, conn);
+        global.dfail('admin', m, conn);
         throw false;
     }
 
@@ -11,9 +10,9 @@ let handler = async (m, { isOwner, isAdmin, conn, text, participants, args, comm
     const totalMembers = participants.length; // عدد الأعضاء
 
     const listAdmin = participants
-        .filter(participant => participant.admin ===  admin  || participant.admin ===  superadmin )
-        .map((v, i) => `*» ${i + 1}. @${v.id.split( @ )[0]}*`)
-        .join( \n );
+        .filter(participant => participant.admin === 'admin' || participant.admin === 'superadmin')
+        .map((v, i) => `*» ${i + 1}. @${v.id.split('@')[0]}*`)
+        .join('\n');
 
     let pesan = args.join` `;
     let oi = `*🗿 اصحى ياض منك له*\n*═━─━━═━─━═💗═━─━━═━━─━*\n ${pesan}`;
@@ -25,7 +24,7 @@ let handler = async (m, { isOwner, isAdmin, conn, text, participants, args, comm
     teks += `*✦⃝اعـضـاء الـمـجـمـوعـه❄️*\n`;
 
     for (let mem of participants) {
-        teks += `┃⊹ @${mem.id.split( @ )[0]}\n`;
+        teks += `┃⊹ @${mem.id.split('@')[0]}\n`;
     }
 
     teks += `┃ 𝙄𝘾𝙃𝙄𝙂𝙊 𝘽𝙊𝙏-𝙈𝘿 𖤍🍷\n`;
@@ -34,7 +33,7 @@ let handler = async (m, { isOwner, isAdmin, conn, text, participants, args, comm
     await conn.sendMessage(
         m.chat,
         { 
-            image: { url:  https://qu.ax/tsjVW.jpg ;  }, 
+            image: { url: 'https://qu.ax/tsjVW.jpg';' }, 
             caption: teks, 
             mentions: participants.map(a => a.id) 
         }
