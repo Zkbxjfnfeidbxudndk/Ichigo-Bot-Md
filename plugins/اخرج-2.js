@@ -10,7 +10,7 @@ const createGroupRows = async (conn, jid, isBotAdmin, totalParticipants, usedPre
         id: `${usedPrefix + command} ${jid}`
     };
 };
-
+ 
 
 const createInteractiveMessage = async (m, conn, totalGroups, rows, imgUrl) => {
     const mediaMessage = await prepareWAMessageMedia({ image: { url: imgUrl } }, { upload: conn.waUploadToServer });
