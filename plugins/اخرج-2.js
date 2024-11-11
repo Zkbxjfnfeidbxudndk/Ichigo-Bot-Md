@@ -8,7 +8,7 @@ const createGroupRows = async (conn, jid, isBotAdmin, totalParticipants, usedPre
         title: `البوت ادمن: ${isBotAdmin ? 'نعم' : 'لا'} - المشاركين: ${totalParticipants}`,
         description: '🚪 خروج',
         id: `${usedPrefix + command} ${jid}`
-    };
+    }; 
 };
 
 
