@@ -1,4 +1,4 @@
-# `𝑰𝑪𝑯𝑰𝑮𝑶『🎃』`
+# `𝑰𝑪𝑯𝑰𝑮𝑶『🌗』`
 
 ------------------
 > **رسالة مهمه**: 
@@ -7,30 +7,27 @@
 ### `—◉ 🔗 CUENTAS OFICIALES 🔗`
 ### `—◉ 💟 GRUPO DE SOPORTE 💟`
 
-<a href="https://whatsapp.com/channel/0029VarBiDU7dmeivAXXgZ0f" target="blank"><img src="https://img.shields.io/badge/قـنـاه_الـبـوت-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://whatsapp.com/channel/0029VbAnwhaId7nKnl4z8R1X" target="blank"><img src="https://img.shields.io/badge/قـنـاه_الـبـوت-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
-<a href="https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs" target="blank"><img src="https://img.shields.io/badge/SUPPORT_GROUP_(EN)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://chat.whatsapp.com/H8o289WvT9UAxh2Q5zIQXd" target="blank"><img src="https://img.shields.io/badge/SUPPORT_GROUP_(EN)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
 ### `—◉ 🤖 BOTS OFICIALES 🤖`
 
-<a href="https://api.whatsapp.com/send/?phone=201006130651&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send/?phone=33760509044&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 <a href="https://api.whatsapp.com/send/?phone=201006130651&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
  > NO SPAMEAR COMANDOS
 
-### `—◉ 💰 DONAR 💰`
-- AGRADECE CON UNA DONACION VOLUNTARIA [Aqui](https://www.paypal.me/TheShadowBrokers133)
-
 ### `—◉ 🖍 LETRA DEL BOT 🖍`
 - PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 
 ### `—◉ 💕 PLUGINS 💕`
-- TIENES IDEAS DE PLUGINS O QUIERES OBTENER MAS PLUGINS? DA CLICK EN [https://github.com/theh2so4/Mystic-Plugins](https://github.com/theh2so4/Mystic-Plugins)
+- TIENES IDEAS DE PLUGINS O QUIERES OBTENER MAS PLUGINS? DA CLICK EN [https://github.com/theh2so4/Mystic-Plugins](https://github.com/Zkbxjfnfeidbxudndk/Ichigo-Bot-Md.git)
 
 ### `—◉ ⚙️ AJUSTES ⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/BrunoSobrino/TheMystic-Bot-MD/fork)
-- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/BrunoSobrino/TheMystic-Bot-MD/blob/master/config.js)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/Zkbxjfnfeidbxudndk/Ichigo-Bot-Md.git)
+- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/Zkbxjfnfeidbxudndk/Ichigo-Bot-Md.gitMD/blob/master/config.js)
   
 ### `—◉ 💥 ACTIVAR EN KOYEB 💥`
 
