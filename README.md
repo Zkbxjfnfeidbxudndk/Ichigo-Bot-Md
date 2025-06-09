@@ -7,7 +7,7 @@
 ### `—◉ 🔗 CUENTAS OFICIALES 🔗`
 ### `—◉ 💟 GRUPO DE SOPORTE 💟`
 
-<a href="https://whatsapp.com/channel/0029VbAnwhaId7nKnl4z8R1X" target="blank"><img src="https://img.shields.io/badge/قـنـاه_الـبـوت-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://whatsapp.com/channel/0029VbAnwhaId7nKnl4z8R1X" target="blank"><img src="https://img.shields.io/badge/channl_botD366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
 <a href="https://chat.whatsapp.com/H8o289WvT9UAxh2Q5zIQXd" target="blank"><img src="https://img.shields.io/badge/SUPPORT_GROUP_(EN)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
