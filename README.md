@@ -116,7 +116,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ## `COLABORADORES DEL BOT` 
 <a href="https://github.com/Zkbxjfnfeidbxudndk"><img src="https://github.com/Zkbxjfnfeidbxudndk" width="100" height="100" alt="mixluffy"/></a>
-<a 
 
 ## `EDITOR & PROPIETARIO DEL BOT` 
 <a href="https://github.com/Zkbxjfnfeidbxudndk"><img src="https://github.com/Zkbxjfnfeidbxudndk" width="250" height="250" alt="mixluffy"/></a>
